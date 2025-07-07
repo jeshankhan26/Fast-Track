@@ -6,6 +6,7 @@ import Brands from '../../Components/Home/Brands';
 import Services from '../../Components/Common/Services';
 import Benefits from '../../Components/Home/Benefits';
 import BecomeMerchant from '../../Components/Home/BecomeMerchant';
+import Testimonial from '../../Components/Home/Testimonial';
 
 const Home = () => {
     return (
@@ -21,6 +22,7 @@ const Home = () => {
         <Brands></Brands>
         <Benefits></Benefits>
         <BecomeMerchant></BecomeMerchant>
+        <Testimonial></Testimonial>
             
         </>
     );
