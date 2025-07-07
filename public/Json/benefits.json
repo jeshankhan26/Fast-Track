@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "image": "https://i.ibb.co/5WChkfY2/casio.png",
+    "title": "Time-Saving",
+    "description": "Automate tasks to focus on what really matters."
+  },
+  {
+    "id": 2,
+    "image": "https://i.ibb.co/F4BYTRj9/amazon.png",
+    "title": "Boost Productivity",
+    "description": "Get more done with optimized workflows."
+  },
+  {
+    "id": 3,
+    "image": "https://i.ibb.co/xSTwLb1W/randstad.png",
+    "title": "Seamless Integration",
+    "description": "Easily connect with your favorite tools."
+  }
+]
