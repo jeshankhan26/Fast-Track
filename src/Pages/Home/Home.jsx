@@ -1,6 +1,7 @@
 import React from 'react';
 import { Helmet } from 'react-helmet';
 import BannerSlider from '../../Components/Home/BannerSlider';
+import Feathers from '../../Components/Home/Feathers';
 
 const Home = () => {
     return (
@@ -11,6 +12,7 @@ const Home = () => {
             </title>
         </Helmet>
         <BannerSlider></BannerSlider>
+        <Feathers></Feathers>
             
         </>
     );
