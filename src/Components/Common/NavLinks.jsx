@@ -1,0 +1,77 @@
+import React from 'react';
+import { NavLink } from 'react-router';
+
+const NavLinks = () => {
+  return (
+    <>
+      <li><NavLink
+          to="/"
+          className={({ isActive }) =>
+            isActive
+              ? 'bg-[#CAEB66] text-white rounded-2xl px-4 py-2'
+              : 'hover:text-[#CAEB66]'
+          }>Home</NavLink></li>
+      <li><NavLink
+          to="/service"
+          className={({ isActive }) =>
+            isActive
+              ? 'bg-[#CAEB66] text-white rounded-2xl px-4 py-2'
+              : 'hover:text-[#CAEB66]'
+          }>Service</NavLink></li>
+      {/* <li><a>Coverage</a></li> */}
+      <li>
+        <NavLink
+          to="/about"
+          className={({ isActive }) =>
+            isActive
+              ? 'bg-[#CAEB66] text-white rounded-2xl px-4 py-2'
+              : 'hover:text-[#CAEB66]'
+          }
+        >
+          About Us
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/about"
+          className={({ isActive }) =>
+            isActive
+              ? 'bg-[#CAEB66] text-white rounded-2xl px-4 py-2'
+              : 'hover:text-[#CAEB66]'
+          }
+        >
+          Courage
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/about"
+          className={({ isActive }) =>
+            isActive
+              ? 'bg-[#CAEB66] text-white rounded-2xl px-4 py-2'
+              : 'hover:text-[#CAEB66]'
+          }
+        >
+          Pricing
+        </NavLink>
+      </li>
+      <li>
+        <NavLink
+          to="/about"
+          className={({ isActive }) =>
+            isActive
+              ? 'bg-[#CAEB66] text-white rounded-2xl px-4 py-2'
+              : 'hover:text-[#CAEB66]'
+          }
+        >
+          Be A Rider
+        </NavLink>
+      </li>
+      <li></li>
+      {/* <li><a>Pricing</a></li>
+      <li><a>Be a Rider</a></li> */}
+    </>
+  );
+};
+
+export default NavLinks;
